@@ -1,0 +1,10 @@
+  .ring-danger {
+        border: 2px solid #dc3545; /* Red border for danger */
+        border-radius: 0.25rem; /* Optional: Adjust border radius as needed */
+        box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); /* Adds a subtle shadow effect */
+    }
+
+    .ring-danger:focus {
+        border-color: #dc3545; /* Red border on focus */
+        box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); /* Ensures the shadow is visible on focus */
+    }
